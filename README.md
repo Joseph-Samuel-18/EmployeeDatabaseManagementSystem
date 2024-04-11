@@ -1,5 +1,5 @@
 # EmployeeDatabaseManagement
- CRUD application using MERN stack. \n
+ CRUD application using MERN stack.
  Fields of employee details used:
   Name
   Age
