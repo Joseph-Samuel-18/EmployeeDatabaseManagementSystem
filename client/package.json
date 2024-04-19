@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
+    "start": "set HTTPS=true && set SSL_CRT_FILE=localhost+2.pem && set SSL_KEY_FILE=localhost+2-key.pem && npm start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
